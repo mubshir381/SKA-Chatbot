@@ -1,0 +1,838 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello",
+        "hey",
+        "hi",
+        "good day",
+        "greetings",
+        "what's up?",
+        "how is it going?",
+        "good morning",
+        "good evening",
+        "good afternoon",
+        "??? ???? ???",
+        "how are you"
+      ],
+      "responses": [
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?",
+        "Good to see you again",
+        "Hello! How can I assist you?",
+        "Hi there! How may I help you today?",
+        "Hello, how can I help you with your university related queries?",
+        "Hi, welcome to the KFUEIT-Bot. How can I help you today?"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "name",
+        "your name",
+        "do you have a name",
+        "what are you called",
+        "what is your name",
+        "what should I call you",
+        "whats your name?",
+        "what are you",
+        "who are you",
+        "who is this",
+        "what am i chatting to",
+        "who am i taking to",
+        "what are you",
+        "tell me about yourself",
+        "how can i call you",
+        "introduce yourself"
+      ],
+      "responses": [
+        "I'm Smart KFUEIT Assistant. How can I help you today about KFUEIT related queries?"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "i need help",
+        "can you help me?",
+        "what can you do for me?",
+        "can you assist me?",
+        "help me",
+        "how you could help me?",
+        "what you do?",
+        "what can you do?",
+        "how can you help me?",
+        "what help can you provide?",
+        "how you can be helpful?",
+        "what support is offered?",
+        "what is the purpose to create you",
+        "what is the purpose for your creation?",
+        "what type of information you can provide me",
+        "what information you provide about kfueit"
+      ],
+      "responses": [
+        "I can provide Information on About KFUEIT, Academics, Admissions, Campus Life, Facilities, Research, Administration."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "see you",
+        "bye",
+        "see you later",
+        "goodbye",
+        "i am leaving",
+        "have a Good Day",
+        "talk to you later",
+        "nice talking to you",
+        "i got to go",
+        "till next time"
+      ],
+      "responses": [
+        "Sad to see you go :(",
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Goodbye!",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "okk",
+        "okie",
+        "nice work",
+        "well done",
+        "good job",
+        "thanks for the help",
+        "Thank You",
+        "its ok",
+        "Thanks",
+        "Good work",
+        "k",
+        "ok",
+        "okay",
+        "That's helpful",
+        "Thank's a lot!",
+        "Awesome",
+        "Thanks for helping me",
+        "great",
+        "good"
+        
+      ],
+      "responses": [
+        "Happy to help!",
+        "I am glad I helped you",
+        "welcome, anything else i can assist you with?"
+      ]
+    },
+    {
+      "tag": "creator",
+      "patterns": [
+        "what is the name of your developers",
+        "what is the name of your creators",
+        "what is the name of the developers",
+        "what is the name of the creators",
+        "who created you",
+        "your developers",
+        "your creators",
+        "who are your developers",
+        "developers",
+        "you are made by",
+        "you are made by whom",
+        "who created you",
+        "who creates you",
+        "who create you",
+        "creators",
+        "who made you",
+        "who designed you"
+      ],
+      "responses": [
+        "Muhammad Mubashir Asif From Institute of Computer & Software Engineering"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [
+        " ",
+        "gvsd",
+        "asbhk",
+        "2637",
+        "1@34",
+        "@",
+        "23.43"
+      ],
+      "responses": [
+        "Sorry, can't understand your query, Please give me more info and ensure your query is related to KFUEIT"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "random",
+      "patterns": [
+         "i love you",
+         " love ",
+         "I hate you",
+         " hate ",
+         "Will you marry me",
+         "Do you love me"
+      ],
+      "responses": [
+         "I respect your emotions But, I am not program to answer this please ask appropriate query related to KFUEIT. I can provide Information on About KFUEIT, Academics, Admissions, Campus Life, Facilities, Research, AdministrationF etc."
+      ],
+      "context_set": ""
+   },
+    {
+      "tag": "swear",
+      "patterns": [
+         "fuck",
+         "bitch",
+         "shut up",
+         "hell",
+         "are you stupid",
+         "are you mad",
+         "you are stupid",
+         "you are idiot ",
+         "you are mad",
+         "stupid",
+         "idiot",
+         "dumb ass",
+         "asshole",
+         "fucker"
+      ],
+      "responses": [
+         "please use appropriate language",
+         "Maintaining decency would be appreciated"
+      ],
+      "context_set": ""
+   },
+    {
+      "tag": "career_services",
+      "patterns": [
+        "What kind of career services does the university offer?",
+        "How can I get help with my job search?",
+        "What resources are available for career development?",
+        "Is there a career fair at the university?"
+      ],
+      "responses": [
+        "Career Counseling Center (CCC) has a mission to educate and guide the students through collective sessions, placement in appropriate internship sites, arrangement of job fairs, campus recruitments, guidance through seminars / testing / interviews of graduating students and arrangement of industrial visits. CCC has established strong collaboration with industries, chamber of commerce and professional bodies to enhance the professional and industrial acumen of the students by arranging internships, community outreach programs, industrial visits, in-house orientation session and placements for regular jobs."
+      ]
+    },
+    {
+      "tag": "About KFUEIT",
+      "patterns": [
+        "Tell me about the KFUEIT",
+        "what is KFUEIT",
+        "What is Full form of KFUEIT",
+        "Full form of kfueit",
+        "tell me something about kfueit",
+        "about KFUEIT",
+        "KFUEIT History",
+        "KFUEIT Information"
+      ],
+      "responses": [
+        "Khwaja Fareed University of Engineering and Information Technology is a public university located in Rahim Yar Khan, Punjab, Pakistan. It was established in 2014 on the initiative of the then Chief Minister of Punjab Mian Muhammad Shahbaz Sharif. It was named after the famous Sufi poet Khwaja Ghulam Fareed."
+      ],
+      "context": [   
+        ""
+      ]
+    },
+    {
+      "tag": "Kfueit No",
+      "patterns": [
+        "KFUEIT in Numbers",
+        "total No of programs",
+        "total No of academic programs",
+        "how many programms are there in kfueit",
+        "how many programs are there in kfueit",
+        "Total academic Programs",
+        "Total No of Students",
+        "Total No of female Students",
+        "Total no of faculty members",
+        "faculty members",
+        "No. of PhDs",
+        "Land (Acres)",
+        "No of classrooms & labs",
+        "Internet Bandwidth",
+        "Total no of Library Books",
+        "No of Engineering Programs",
+        "No of CS & IT Programs"
+      ],
+      "responses": [
+        "The KFUEIT In No for 2023 are given below: 1. Total academic Programs: 100, 2. Total No of Students: 13626, 3. Total No of female Students: 5989, 4. Total no of faculty: 298, 5. No. of PhDs: 90, 6. Land (Acres): 384, 7. No of classrooms & labs: 268, 8. Internet Bandwidth: 366, 9. Total no of Library Books: 180000, 10. No of Engineering Programs: 25, 11. No of CS & IT Programs: 18. You can also check the previous years data on the official website. <a href='https://www.kfueit.edu.pk/kfueit-in-numbers-milestones?main=611&parent=About%20KFUEIT'> Here are the link.</a>"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "Eligibility Criteria",
+      "patterns": [
+        "admission criteria",
+        "Is admission open in Khawaja Fareed university?",
+        "What are the admission requirements?",
+        "Eligibility Criteria for admission",
+        "Eligibility Criteria",
+        "What is Eligibility Criteria",
+        "Eligibility Criteria for kfueit",
+        "who is eligible for kfueit",
+        "admission requirements",
+        "admission requirements for undergraduate programs",
+        "admission requirements for Bs programs",
+        "eligibility criteria for undergraduate programs"
+      ],
+      "responses": [
+        "KFUEIT Rahim Yar Khan admission office has announced that admission are open for session 2023. Online Admission applications are invited for Undergraduate Bachelor degree Programs. Higher Secondary School Certificate (HSSC) / DAE in all fields or equivalent with 45% marks. b) KFUEIT recognized/valid aptitude test (KFAT / NAT /KFEAT/ ECAT/ MDCAT). a) Higher Secondary School Certificate (HSSC) with Pre-Engineering / Pre-Medical / A-Levels or equivalent having 50% marks. To check the Eligibility Criteria for admission in KFUEIT, you can visit the link below. <a href='https://kfueit.edu.pk/eligibility-criteria-1'> Here are the link.</a>"
+        
+      ]
+    },
+    {
+      "tag": "DAE Eligibility Criteria",
+      "patterns": [
+        "admission criteria for DAE",
+        "DAE Eligibility Criteria",
+        "eligibility criteria for DAE",
+        "what is the admission criteria for diploma holders",
+        "Is admission open in Khawaja Fareed university for DAE?",
+        "Is admission open in Khawaja Fareed university for diploma holders?",
+        "What are the admission requirements for DAE?",
+        "Eligibility Criteria for admission",
+        "What is Eligibility Criteria for DAE",
+        "Eligibility Criteria for DAE in kfueit"
+
+      ],
+      "responses": [
+        "To Check the Eligibility Criteria for DAE in detail. <a href='https://kfueit.edu.pk/dae-eligibility-criteria?1=1&main=624&parent=Admissions'> Click here!.</a>"
+      ]
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+        "information about fee",
+        "fee structure of kfueit",
+        "kfueit fee structure",
+        "information on fee",
+        "tell me the fee",
+        "KFUEIT fee",
+        "fee per semester",
+        "what is the fee of each semester",
+        "what is the fees of each year",
+        "what is fee",
+        "what is the fees",
+        "how much is the fees",
+        "fees for first year",
+        "fees",
+        "about the fees",
+        "tell me something about the fees",
+        "What is the fees of hostel",
+        "hostel fee",
+        "how much is the fees",
+        "hostel fees",
+        "fee structure",
+        "Fee structure of Mechanical Engineering",
+        "Fee structure of  Institute of Computer & Software Engineering",
+        "Fee structure of Civil Engineering ",
+        "Fee structure of Electrical Engineering ",
+        "Fee structure of Electronic Engineering ",
+        "Fee structure of Software Engineering ",
+        "Fee structure of AgricultureF Engineering",
+        "Fee structure of CS & IT",
+        "What is the Fee of Summer camp in Kfueit per credit hour?",
+        "fee of summer camp",
+        "fee of Ms Programs",
+        "fee of PhD Programs"
+      ],
+      "responses": [
+        " Detailed Information about KFUEIT Fee Structure is available on KFUEIT Website. <a href='https://kfueit.edu.pk/fee-structure'> Here are the link.</a>"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "facilities",
+      "patterns": [
+        "what facilities are provided by KFUEIT?",
+        "what are the facilities of university for students",
+        "what are the university infrastructure",
+        "What facilities kfueit provide",
+        "kfueit facility",
+        "What are kfueit facilities",
+        "facilities",
+        "facilities provided"
+      ],
+      "responses": [
+        "With excellent education facilities, KFUEIT provides various other facilities like ICT, Health & Safety, Centre for Medical Services, Library, Security, Hostel, Career Counselling, Parking Space, and student service for any students queries. You can get more information about FACILITIES on KFUEIT on official Website <a href='https://kfueit.edu.pk/ict?main=840&parent=Facilities'>here.</a>"
+      ]
+    },
+    {
+      "tag": "Academic Programs",
+      "patterns": [
+        "academic programs offers in kfueit",
+        "please tell me about academic programs offers in kfueit",
+        "list of programmes in kfueit",
+        "academic programs",
+        "list of Program",
+        "list of Programs",
+        "list of Programs offered in kfueit",
+        "list of academic Programs offered in KFUEIT",
+        "what are the Programs offered in kfueit?",
+        "courses?",
+        "courses offered",
+        "courses offered in KFUEIT",
+        "courses you offer",
+        "branches?",
+        "courses available at KFUEIT?",
+        "branches available at kfueit?",
+        "what are the courses in UNI?",
+        "what are branches in UNIVERSITY?",
+        "what are courses in KFUEIT?",
+        "branches available in kfueit?",
+        "can you tell me the courses available in KFUEIT?",
+        "can you tell me the branches available in university?",
+        "What programs does the university offer?",
+        "Can you tell me about the university's programs?",
+        "What are the majors program offered by the kfueit?",
+        "What are the areas of study at the university?",
+        "Bs program list",
+        "Undergraduate list"
+      ],
+      "responses": [
+        "Academic Programs Offers in KFUEIT are given below: Undergraduate Programs - (BS, ADP, BBA, B.ED, MSc). Graduate Programs - (MS, MBA, M.Phil). Postgraduate Programs - (PhD). You can find list of each academic programs on official KFUEIT website. <a href='https://www.kfueit.edu.pk/academic-programs?main=747&parent=ACADEMICS'> Here are the link.</a>"
+      ],
+      "context": [
+        "Branches"
+      ]
+    },
+    {
+      "tag": "financial_aid",
+      "patterns": [
+        "Scholarships",
+        "list of scholarships in kfueit",
+        "please tell me about kfueit scholarships",
+        "scholarships available in kfueit",
+        "What kind of financial aid is available?",
+        "How can I apply for financial aid?",
+        "What are the eligibility requirements for financial aid?",
+        "When is the deadline for financial aid applications?",
+        "Does kfueit provides financial assistance and scholarships to needy students?"
+      ],
+      "responses": [
+        "In order to facilitate the talented and needy student, the university offers substantial number of scholarships and financial assistants so that the future leaders do not discontinue their studies because of financial constraints. To ensure transparency and meritocracy, Scholarships and Financial Assistance Department along with a Committee, consisting of member from each faculty, administers all matters related to scholarships and financial assistance. You can check more about financial aid on link below. <a href='https://kfueit.edu.pk/financial-aid?main=624&parent=Admissions'> Here are the link.</a>"
+      ]
+    },
+    {
+      "tag": "Location",
+      "patterns": [
+        "where is the uni located",
+        "university is located at",
+        "where is KFUEIT",
+        "where is university located",
+        "address of Khwaja Fareed University of Engineering & Information Technology",
+        "how to reach KFUEIT",
+        "KFUEIT location",
+        "KFUEIT address",
+        "wheres the university",
+        "how can I reach KFUEIT",
+        "whats is the KFUEIT address",
+        "what is the address of Khwaja Fareed University of Engineering & Information Technology",
+        "address",
+        "location",
+        "where is it located",
+        "what is the location of the University",
+        "what is the location of the KFUEIT"
+      ],
+      "responses": [
+        "Khwaja Fareed University of Engineering & Information Technology is located on Abu Dhabi Road, Rahim Yar Khan Panjab Pakistan. You can also check on MAP <a href='https://www.google.com/maps/place/Khwaja+Fareed+University+of+Engineering+%26+Information+Technology+(KFUEIT)/@28.3912592,70.3651194,6062m/data=!3m1!1e3!4m6!3m5!1s0x39375efadd8e3573:0xf516a4b3e4cb06b8!8m2!3d28.3808312!4d70.3743548!16s%2Fm%2F0125p75w?entry=ttu'>here.</a>"
+      ]
+    },
+    {
+      "tag": "semesters",
+      "patterns": [
+        "how many semesters are there in a year",
+        "how many semesters one should study in a year"
+      ],
+      "responses": [
+        "There are two semesters in a year."
+      ]
+    },
+    {
+      "tag": "About Library",
+      "patterns": [
+        "tell me something about library",
+        " library ",
+        "total books in library ",
+        "is there any library in kfueit",
+        "does kfueit have a library"
+
+      ],
+      "responses": [
+        "Library at KFUEIT was initially housed in a renovated hall with an area of about 700 meter square. Today library has 02 full time librarians with 04 persons in attached staff. Library collection has risen to 21,000 books with 7,500 titles. Library services are being offered at 02 premises in CS&IT and Civil engineering buildings. In its immediate plans, KFUEIT Library aims to add 5,000 international and local book titles. Access to digital databases including IET digital library, McGraw Hill collections, Springer Link, Taylor & Francis Journals, Wiley Blackwell etc.is in functional. To get more information about library please! <a href='https://www.kfueit.edu.pk/about-library?main=859&parent=Library&menu=side-link?main=840&parent=Facilities'> Click here!</a>"
+      ]
+    },
+    {
+      "tag": "Research Centers",
+      "patterns": [
+        "tell me something about Research Centers",
+        " Research Center ",
+        "Research Centers in kfueit",
+        "is there any research center in kfueit",
+        "does kfueit have a research centers"
+
+      ],
+      "responses": [
+        "Research Center provides a platform for KFUEIT experts to share insights on the issues and approaches challenging the national & international development sector today and the role of research in finding solutions. To get more information about Research Centers please! <a href='https://www.kfueit.edu.pk/research-1?main=958&parent=Research'> Click here!</a>"
+      ]
+    },
+    {
+      "tag": "semDuration",
+      "patterns": [
+        "how many months are there in a semester",
+        "how long will be a single semester"
+      ],
+      "responses": [
+        "The single semester will be around 4 months."
+      ]
+    },
+    {
+      "tag": "exams",
+      "patterns": [
+        "what are the exams like?",
+        "What is the exam pattern",
+        "kfueit exam",
+        "KFUEIT Examination",
+        "examination rules",
+        "examination rules & regulations",
+        "examination rules & regulations  in KFUEIT",
+        "Do you know about examination rules & regulations ?"
+      ],
+      "responses": [
+        "The examination cell of KFUEIT is established for handling all matters related to university exams and is responsible for maintaining their quality and standards. The examination department works in compliance with HEC guidelines and KFUEIT undergraduate and examination regulations. All academic results are prepared within this department keeping a high level of secrecy, honesty and integrity. Some of the basic rules & regulations of KFUEIT are given below: Students are not allowed to talk with or copy from other students during the examination. No student is allowed to join the examination 30 minutes after its commencement. No student is allowed to submit the answer sheet and leave the examination room within 30 minutes of commencement of examination."
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "what are your hours",
+        "when are you guys open",
+        "what your hours of operation",
+        "timing of college",
+        "what is college timing",
+        "working days",
+        "when are you guys open",
+        "what are your hours",
+        "hours of operation",
+        "when is the college open",
+        "college timing",
+        "what about college timing",
+        "is college open on saturday",
+        "tell something about college timing",
+        "what is the college  hours",
+        "when should i come to college",
+        "when should i attend college",
+        "what is my college time",
+        "college timing",
+        "timing college"
+      ],
+      "responses": [
+        "You can message us here anytime. KFUEIT premises is open from 7am-8pm Monday-Saturday!"
+      ]
+    },
+    {
+      "tag": "extra curriculum-Activities",
+      "patterns": [
+        "will there be any extra curriculum activities?",
+        "does the kfueit conducts any fun program"
+      ],
+      "responses": [
+        "Yes, Of course. KFUEIT not only provides excellent education but also encourage students to take part in different curriculum activities. The university conducts yearly programs like Sports Gala, Carnival, Holi festival, and Christmas. \n Also our kfueit has basketball court, badminton court, table tennis, chess, carrom board and many more refreshment zones."
+      ]
+    },
+    {
+      "tag": " Departments",
+      "patterns": [
+        " List of Departments",
+        "Departments",
+        "What are all the different departments?"
+      ],
+      "responses": [
+        "Department of Computer Science & Information Technology, Department of Electrical Engineering, Department of Mechanical Engineering, Department of Civil Engineering, Department of Chemical & Environmental Engineering, Department of Agriculture Engineering, Department of Applied Science & Humanities, Department of Business Administration, Institute of Computer and Software Engineering"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "Faculties",
+      "patterns": [
+        "List of Faculties",
+        "Faculties",
+        "What are all the different faculties?",
+        "Total faculties?"
+      ],
+      "responses": [
+        "Tere are total 8 faculties present in KFUEIT which are given below: 1. Faculty of Administrative & Management Sciences contains 2 Departments, 2. Faculty of Chemical, Civil & Environmental Engineering contains 2 Departments, 3. Faculty of Electrical and Computer Engineering contains 2 Departments, 4. Faculty of Food, Health Science & Technology contains 5 Departments, 5. Faculty of Humanties & Social Sciences contains 3 Departments, 6. Faculty of Information Technology contains 4 Departments, 7. Faculty of Mechanical & Agriculture Engineering contains 2 Departments, 8. Faculty of Natural and Applied Sciences contains 5 Departments. You can explore each faculties by visiting official website. <a href='https://www.kfueit.edu.pk/faculties?main=747&parent=ACADEMICS'> Click here!.</a>"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "Faculty Members",
+      "patterns": [
+        "Faculty Members",
+        "total no of Faculty Members",
+        "how many faculty members in kfueit",
+        "Total faculty?",
+        "phd faculty",
+        "how many Phd faculty is there in kfueit",
+        "total phd faculty",
+        "total number of faculty members",
+        "is there any phd faculty",
+        "tell me something about kfueit faculty",
+        "tell me something about faculty",
+        "tell me about faculty",
+        "tell me about kfueit faculty"
+        
+      ],
+      "responses": [
+        "In Kfueit the Total No. of Faculty Members is 298 and 90 of these are PhD Scholars."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "Merit Determination",
+      "patterns": [
+        "merit formula of kfueit",
+        "merit calculator",
+        "Merit Determination of kfueit",
+        "Merit calculation of kfueit",
+        "how to determine merit?",
+        "is there any criteria to determine merit?",
+        "how to calculte merit",
+        "do you have any merit calculation formula?",
+        "do you have any merit calculation technique?",
+        "how kfueit calculate merit of students"
+],
+      "responses": [
+        "In KFUEIT the Merit Determination of Undergraduate Programs, Graduate Programs, Post Graduate Programs are different. To see this information please! <a href='https://kfueit.edu.pk/merit-determination?1=1&main=624&parent=Admissions'> Click here!.</a>"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "Events & Attractions",
+      "patterns": [
+        "events",
+        "events in kfueit",
+        "is there any events occurs in kfueit",
+        "attractions",
+        "attractions in kfueit",
+        "is there any attractions in kfueit",
+        "is there any extracurricular activities in kfueit",
+        "extracurricular activities",
+        "tell me about extracurricular activities in kfueit"
+
+
+],
+      "responses": [
+        "There are many types of Islamic, Social-Cultral Events & Attractions occurs at KFUEIT. To see that Events & Attractions please! <a href='https://kfueit.edu.pk/events-attractions?main=887&parent=Campus%20Life'> Click here!.</a>"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "Academic Calendar",
+      "patterns": [
+        " What is the Academic Calendar of kfueit",
+        "Academic Calendar",
+        "Provide Academic Calendar of the university",
+        "Academic Calendar for KFUEIT",
+        "academic calendar of kfueit"
+      ],
+      "responses": [
+        "To View the Academic Calendar of KFUEIT, you can visit the link below. <a href='https://www.kfueit.edu.pk/academic-calendar?main=747&parent=ACADEMICS'> Here are the link.</a>"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "Apply for new admissins",
+      "patterns": [
+        "How can I apply for admission?",
+        "How to Apply for new admissins in kfueit",
+        "Apply for new admissins",
+        "how to apply in kfueit university",
+        "Apply for new admissins in KFUEIT",
+        "What is the application process?",
+        "When is the deadline for admission?",
+        "how to apply",
+        "how to apply for admission"
+      
+        
+      ],
+      "responses": [
+        "The detailed guideline to apply for new admissin in KFUEIT, you can visit the link below, and create a new e-portal account and proceed further. <a href='https://eportal.kfueit.edu.pk/login?1=1&main=624&parent=Admissions'> Here are the link.</a>"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "hostel",
+      "patterns": [
+        "hostel facility",
+        "hostel servive",
+        "hostel location",
+        "hostel address",
+        "hostel facilities",
+        "hostel fees",
+        "Does college provide hostel",
+        "Is there any hostel",
+        "Where is hostel",
+        "do you have hostel",
+        "do you guys have hostel",
+        "hostel",
+        "hostel capacity",
+        "what is the hostel fee",
+        "how to get in hostel",
+        "what is the hostel address",
+        "how far is hostel from university",
+        "hostel college distance",
+        "where is the hostel",
+        "how big is the hostel",
+        "distance between college and hostel",
+        "distance between hostel and university",
+        "Is residence guaranteed?",
+        "Do you offer hostel facilities?",
+        "yall provide hostel facilities?",
+        "Is hostel available?",
+        "Does the campus have Hostel facilities?",
+        "tell me about hostels"
+      ],
+      "responses": [
+        "KFUEIT has arranged a decent, safe and separate hostel facility for boys & girls. Students will have to pay Rs. 15,000/semester for availing this facility, which covers all residence facilities. You can explore more on officoal website. <a href='https://kfueit.edu.pk/hostel-department'>https://kfueit.edu.pk/hostel-department</a> "
+      ]
+    },
+    {
+      "tag": "ranking",
+      "patterns": [
+        "How does your university score in major rankings?",
+        "How does KFUEIT score in rankings?",
+        "How does KFUEIT score in rankings?",
+        "What is the rank of kfueit?",
+        "What is the ranking of kfueit?",
+        "ranking of kfueit?",
+        "rank of kfueit?"
+      ],
+      "responses": [
+        "According to the Times Higher Education Impact Ranking 2022, Khwaja Fareed University has secured the first position among the engineering universities of the country and the third position among all the universities in the country in the category of Affordable and Clean Energy. Similarly, in this category, it has been included in the top 101 to 200 best universities in the world. In terms of work on climate change, Khawaja Fareed University has also been ranked first among engineering universities across the country and fourth among all other universities in the Times Higher Education Impact Rankings. Similarly, Khwaja Fareed University is ranked among the 201 to 300 best universities in the world."
+      ]
+    },
+    {
+      "tag": "studentLife",
+      "patterns": [
+        "What's it like to be a student at your university?",
+        "What's it like to be a student at SLTC?",
+        "How is students' life at SLTC?",
+        "How is students life at SLTC?",
+        "How is students life at sltc?"
+      ],
+      "responses": [
+        "From the environment of the campus, to student clubs & Societies, to mental health supports, to athletics, there are many variables that will impact your time on campus.."
+      ]
+    },
+    {
+      "tag": "sports",
+      "patterns": [
+        "sports and games",
+        "give sports details",
+        "sports infrastructure",
+        "sports facilities",
+        "information about sports",
+        "Sports activities",
+        "please provide sports and games information",
+        "What are the available sports?",
+        "Sports at KFUEIT",
+        "Can we play sports at campus?"
+      ],
+      "responses": [
+        "There are many sports such as cricket, foot-ball, volleyball, netball, basketball, carrom, chess and many more. Our university encourages all-round development of students and hence provides sports facilities in the campus. For more details visit <a target=\"_blank\" href=/\"https://kfueit.edu.pk/sports-department?1=1&main=887&parent=Campus%20Life\">here</a>"
+      ]
+    },
+    {
+      "tag": "club & Societies",
+      "patterns": [
+        "What are the clubs and societies available at KFUEIT?",
+        "Societies at KFUEIT",
+        "Societies and activities at KFUEIT",
+        "Can students engage in Societies at KFUEIT?"
+      ],
+      "responses": [
+        "There are total 37 Societies for students at KFUEIT at that time. You can explore the list of DSA Societies <a target=\"_blank\" href=/\"https://kfueit.edu.pk/dsa-societies?1=1&main=620&parent=Administration\">here</a> "
+      ]
+    },
+    {
+      "tag": "scholarship",
+      "patterns": [
+        "What are the scholarships provided by KFUEIT?",
+        "What are the scholarships related to engineering degrees offered at KFUEIT?",
+        "Can students apply for scholarships at KFUEIT?",
+        "Is there any scholarships offered by campus?"
+      ],
+      "responses": [
+        "In order to facilitate the talented, needy, low-income, marginalised or refugee students, the university provides a substantial number of scholarships and financial assistants for their university fee, hostel/accommodation and living allowance so that future leaders do not discontinue their studies because of financial constraints. The major function of the Scholarships Committee is not only to evaluate the Need Based and Merit Scholarships but also to recommend the students for Fareed Scholarship, Pakistan Baitul Mal, Ministry of Religious Affairs, and IEP - SAC (Saudi Arabia) Scholarship. To get more in depth information about Scholarships in KFUEIT, you can visit the official page. <a href='https://kfueit.edu.pk/scholarships-and-financial-assistance-department-1?1=1&main=620&parent=Administration'> Here are the link.</a> "
+      ]
+    },
+    {
+      "tag": "Contact Us",
+      "patterns": [
+        "Email ID",
+        "Website",
+        "more info",
+        "contact info",
+        "how to contact college",
+        "college telephone number",
+        "college number",
+        "What is your contact no",
+        "Contact number?",
+        "how to call you",
+        "College phone no?",
+        "how can i contact you",
+        "Can i get your phone number",
+        "phone number",
+        "phone no",
+        "call"
+      ],
+      "responses": [
+        "You can contact Us by Different Ways. Office Address: Abu Dhabi Road, Rahim Yar Khan. Phone Number: +92 68 5882400. Fax: +92 68 5882400. E-mail Us: info@kfueit.edu.pk & hr@kfueit.edu.pk"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "funny",
+        "joke",
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
